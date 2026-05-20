@@ -85,7 +85,11 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-    payloadExtraction: true,
+    // Desligado: combinado com prerender + Vercel preset, o payload separado
+    // gerava mismatch entre o hash do CSS no HTML pré-renderizado e o arquivo
+    // de fato gerado pelo Vite — resultava em <link href="entry.<hashA>.css">
+    // apontando pra arquivo que não existia (sai entry.<hashB>.css).
+    payloadExtraction: false,
     viewTransition: false,
   },
 

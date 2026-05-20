@@ -6,6 +6,7 @@
     "node": ">=20.x"
   },
   "scripts": {
+    "prebuild": "node -e \"const fs=require('fs');for(const d of ['.nuxt','.output','.vercel/output']){fs.rmSync(d,{recursive:true,force:true})}\"",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
