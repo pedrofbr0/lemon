@@ -7,13 +7,13 @@ const channels = [
     title: 'Contratação',
     detail: 'Booking · bares · festas · festivais',
     email: 'producao@lemon.band',
-    name: 'Mari Bittencourt · responde direto',
+    name: 'Rodolfo Magalhães · responde direto',
   },
   {
     title: 'Imprensa',
     detail: 'Press kit · entrevistas · fotos em alta',
     email: 'imprensa@lemon.band',
-    name: 'João Lopes · comunicação',
+    name: 'João Vitor · comunicação',
   },
   {
     title: 'Parcerias',
@@ -26,7 +26,6 @@ const channels = [
 const socials = [
   { label: 'Instagram', url: '#' },
   { label: 'TikTok', url: '#' },
-  { label: 'Spotify', url: '#' },
   { label: 'YouTube', url: '#' },
 ]
 </script>
@@ -78,16 +77,24 @@ const socials = [
         </li>
       </ul>
 
-      <!-- Rodapé do bloco: socials -->
-      <div class="mt-section grid grid-cols-12 gap-gutter items-end" data-reveal>
-        <div class="col-span-12 md:col-span-6">
+      <!-- Rodapé do bloco: mascote + recado + socials -->
+      <div class="mt-section grid grid-cols-12 gap-gutter items-center" data-reveal>
+        <!-- Mascote LEMON -->
+        <div class="col-span-12 md:col-span-5 flex justify-center md:justify-start">
+          <BrandPineapple
+            variant="cool"
+            :animated="true"
+            :rotate="-6"
+            class="w-[240px] md:w-[320px] lg:w-[380px] max-w-full"
+          />
+        </div>
+
+        <div class="col-span-12 md:col-span-7 space-y-8">
           <p class="font-editorial italic text-3xl md:text-4xl leading-tight text-balance">
             A gente toca em bar pequeno, festa universitária, festival, casa de amigo. <br>
             Manda mensagem.
           </p>
-        </div>
-        <div class="col-span-12 md:col-span-6 md:text-right">
-          <ul class="flex flex-wrap md:justify-end gap-x-6 gap-y-3">
+          <ul class="flex flex-wrap gap-x-6 gap-y-3">
             <li v-for="s in socials" :key="s.label">
               <a
                 :href="s.url"
