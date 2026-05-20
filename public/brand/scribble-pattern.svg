@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <style>
+      .lw { font-family: 'Permanent Marker', 'Caveat', cursive; fill: #fbe7b4; opacity: 0.12; }
+      .sw { font-family: 'Permanent Marker', 'Caveat', cursive; fill: #ea4435; opacity: 0.18; }
+      .hw { font-family: 'Permanent Marker', 'Caveat', cursive; fill: #fbe7b4; opacity: 0.07; }
+    </style>
+  </defs>
+  <g>
+    <text class="lw" x="40"   y="80"  font-size="90"  transform="rotate(-12 40 80)">LEMON</text>
+    <text class="sw" x="320"  y="60"  font-size="60"  transform="rotate(8 320 60)">LEMON</text>
+    <text class="hw" x="540"  y="110" font-size="120" transform="rotate(-4 540 110)">LEMON</text>
+    <text class="lw" x="820"  y="70"  font-size="48"  transform="rotate(14 820 70)">lemon</text>
+    <text class="sw" x="1000" y="120" font-size="70"  transform="rotate(-18 1000 120)">LEMON</text>
+
+    <text class="hw" x="20"   y="220" font-size="64"  transform="rotate(6 20 220)">lemon</text>
+    <text class="lw" x="200"  y="260" font-size="100" transform="rotate(-8 200 260)">LEMON</text>
+    <text class="sw" x="560"  y="220" font-size="44"  transform="rotate(20 560 220)">lemon</text>
+    <text class="lw" x="700"  y="280" font-size="86"  transform="rotate(-2 700 280)">LEMON</text>
+    <text class="hw" x="1010" y="240" font-size="56"  transform="rotate(10 1010 240)">lemon</text>
+
+    <text class="sw" x="60"   y="400" font-size="72"  transform="rotate(-16 60 400)">LEMON</text>
+    <text class="hw" x="280"  y="440" font-size="130" transform="rotate(2 280 440)">LEMON</text>
+    <text class="lw" x="640"  y="400" font-size="58"  transform="rotate(-10 640 400)">lemon</text>
+    <text class="sw" x="820"  y="460" font-size="92"  transform="rotate(4 820 460)">LEMON</text>
+
+    <text class="lw" x="40"   y="580" font-size="64"  transform="rotate(12 40 580)">lemon</text>
+    <text class="hw" x="240"  y="620" font-size="80"  transform="rotate(-6 240 620)">LEMON</text>
+    <text class="sw" x="500"  y="580" font-size="110" transform="rotate(8 500 580)">LEMON</text>
+    <text class="lw" x="860"  y="600" font-size="50"  transform="rotate(-14 860 600)">lemon</text>
+    <text class="hw" x="1020" y="640" font-size="74"  transform="rotate(2 1020 640)">LEMON</text>
+
+    <text class="hw" x="80"   y="760" font-size="100" transform="rotate(-4 80 760)">LEMON</text>
+    <text class="sw" x="400"  y="740" font-size="56"  transform="rotate(16 400 740)">lemon</text>
+    <text class="lw" x="600"  y="780" font-size="84"  transform="rotate(-8 600 780)">LEMON</text>
+    <text class="sw" x="900"  y="760" font-size="60"  transform="rotate(6 900 760)">lemon</text>
+  </g>
+</svg>

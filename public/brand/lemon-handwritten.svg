@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" fill="none">
+  <!-- Contorno branco do sticker -->
+  <g stroke="#ffffff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- L -->
+    <path d="M70 50 L70 230 L160 230"/>
+    <!-- E -->
+    <path d="M210 50 L210 230 M210 50 L300 50 M210 140 L290 140 M210 230 L300 230"/>
+    <!-- M -->
+    <path d="M350 230 L350 50 L420 180 L490 50 L490 230"/>
+    <!-- O -->
+    <path d="M560 140 A60 90 0 1 1 559.999 139.999 Z"/>
+    <!-- N -->
+    <path d="M690 230 L690 50 L780 230 L780 50"/>
+  </g>
+  <!-- Camada interna laranja (pincelada) -->
+  <g stroke="#EA4435" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M70 50 L70 230 L160 230"/>
+    <path d="M210 50 L210 230 M210 50 L300 50 M210 140 L290 140 M210 230 L300 230"/>
+    <path d="M350 230 L350 50 L420 180 L490 50 L490 230"/>
+    <path d="M560 140 A60 90 0 1 1 559.999 139.999 Z"/>
+    <path d="M690 230 L690 50 L780 230 L780 50"/>
+  </g>
+  <!-- Marcas extras de pincel -->
+  <g stroke="#EA4435" stroke-width="6" stroke-linecap="round" opacity="0.85">
+    <path d="M80 70 L80 220"/>
+    <path d="M360 70 L360 220"/>
+    <path d="M700 70 L700 220"/>
+  </g>
+</svg>

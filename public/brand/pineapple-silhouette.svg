@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" fill="none">
+  <!-- Folhas -->
+  <g fill="#0A0A0A">
+    <path d="M100 10c-4 14-12 28-22 38 8-2 16-6 22-12 6 6 14 10 22 12-10-10-18-24-22-38z"/>
+    <path d="M70 30c-6 18-22 32-40 38 16 4 32 0 44-12-2 12-8 22-18 28 16-2 30-12 36-26-2 10 0 22 6 30-4-18-2-38 8-54l-36-4z"/>
+    <path d="M130 30c6 18 22 32 40 38-16 4-32 0-44-12 2 12 8 22 18 28-16-2-30-12-36-26 2 10 0 22-6 30 4-18 2-38-8-54l36-4z"/>
+  </g>
+  <!-- Folha de destaque vermelha -->
+  <path d="M100 6c-2 18 0 38 8 56 2-18-2-38-8-56z" fill="#EA4435"/>
+
+  <!-- Corpo -->
+  <ellipse cx="100" cy="170" rx="74" ry="92" fill="#0A0A0A"/>
+  <!-- Recorte de escamas -->
+  <g stroke="#ffffff" stroke-width="2.8" fill="none" stroke-linecap="round">
+    <path d="M28 110 L100 170 L172 110"/>
+    <path d="M28 142 L100 200 L172 142"/>
+    <path d="M28 174 L100 232 L172 174"/>
+    <path d="M40 204 L100 254 L160 204"/>
+    <path d="M46 84 L100 134 L154 84"/>
+  </g>
+</svg>
