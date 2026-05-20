@@ -22,7 +22,10 @@ export default defineNuxtConfig({
   ssr: true,
 
   // Otimização agressiva de imagens (banda = muita foto).
+  // Em produção na Vercel: usa o image optimizer nativo da plataforma.
+  // Em dev local: ipx (padrão).
   image: {
+    provider: process.env.VERCEL ? 'vercel' : 'ipx',
     quality: 82,
     format: ['avif', 'webp'],
     screens: {
@@ -66,10 +69,18 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    // Vercel auto-detecta via env var VERCEL; explícito apenas pra clareza.
+    preset: process.env.VERCEL ? 'vercel' : undefined,
     compressPublicAssets: { gzip: true, brotli: true },
     prerender: {
-      crawlLinks: true,
+      // Apenas a home — não crawlear pra evitar 404s de assets faltantes
+      // (ex: /img/gallery-XX.jpg que ainda não foram adicionados).
+      crawlLinks: false,
       routes: ['/'],
+      // Build não quebra se algum asset prerender retornar 404 —
+      // imagens faltantes ficam com o fallback visual em runtime.
+      failOnError: false,
+      ignore: ['/_ipx'],
     },
   },
 
